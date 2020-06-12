@@ -13,13 +13,17 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "mobx": "^5.15.0",
+    "mobx-react": "^6.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:electron": "cross-env NODE_ENV=development electron .",
+    "dist:electron": "electron-builder"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "electron/main.js",
+  "homepage": ".",
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "electron": "^7.1.1",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-builder": "^21.2.0",
+    "tslint": "^5.20.1",
+    "tslint-react": "^4.1.0",
+    "node-sass": "^4.13.0"
   }
 }
