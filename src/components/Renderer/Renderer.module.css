@@ -1,0 +1,13 @@
+.renderer {
+  width: 50%;
+  height: 100vh;
+}
+
+.markdown {
+  margin: 0 0 0 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  font-family: 'Open Sans';
+  height: 100%;
+}

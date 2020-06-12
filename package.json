@@ -7,26 +7,25 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
+    "@types/markdown-to-jsx": "^6.11.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "markdown-to-jsx": "^6.11.4",
+    "mobx": "^5.15.0",
+    "mobx-react": "^6.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2",
-    "mobx": "^5.15.0",
-    "mobx-react": "^6.1.4"
+    "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:electron": "cross-env NODE_ENV=development electron .",
     "dist:electron": "electron-builder"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -43,12 +42,13 @@
   "main": "electron/main.js",
   "homepage": ".",
   "devDependencies": {
+    "@types/marked": "^0.7.4",
     "cross-env": "^6.0.3",
     "electron": "^7.1.1",
-    "electron-devtools-installer": "^2.2.4",
     "electron-builder": "^21.2.0",
+    "electron-devtools-installer": "^2.2.4",
+    "node-sass": "^4.13.0",
     "tslint": "^5.20.1",
-    "tslint-react": "^4.1.0",
-    "node-sass": "^4.13.0"
+    "tslint-react": "^4.1.0"
   }
 }

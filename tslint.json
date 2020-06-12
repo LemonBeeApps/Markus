@@ -1,7 +1,6 @@
 {
-  "extends": ["tslint:recommended", "tslint-react"],
   "rules": {
-    "semicolon": [true, "never"],
+    "semicolon": [true, "always"],
     "quotemark": [true, "single", "jsx-double"],
     "trailing-comma": false,
     "member-access": [true, "no-public"],

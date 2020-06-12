@@ -1,16 +1,10 @@
-import 'styles/index.scss'
+import React from 'react';
+import { Container } from './components/Container/Container';
 
-import Container from 'components/Container'
-import { Provider } from 'mobx-react'
-import React from 'react'
-import Store from 'store'
-
-const store = new Store()
+import './App.css';
 
 const App = () => (
-  <Provider store={store}>
-    <Container />
-  </Provider>
-)
+  <Container />
+);
 
-export default App
+export default App;

@@ -1,0 +1,15 @@
+.editor {
+  width: 50%;
+  height: 100vh;
+  border: none;
+  border-right: 1px solid lightgray;
+  font-family: 'Open Sans';
+  font-size: 1em;
+  resize: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+.editor:active, .editor:focus {
+  outline: none;
+}
