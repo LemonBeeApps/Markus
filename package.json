@@ -47,7 +47,7 @@
     "electron": "^7.1.1",
     "electron-builder": "^21.2.0",
     "electron-devtools-installer": "^2.2.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "tslint": "^5.20.1",
     "tslint-react": "^4.1.0"
   }
