@@ -44,7 +44,7 @@
   "devDependencies": {
     "@types/marked": "^0.7.4",
     "cross-env": "^6.0.3",
-    "electron": "^7.1.1",
+    "electron": "^22.3.21",
     "electron-builder": "^21.2.0",
     "electron-devtools-installer": "^2.2.4",
     "node-sass": "^4.13.0",
